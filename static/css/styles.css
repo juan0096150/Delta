@@ -1,0 +1,89 @@
+body {
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
+
+nav a {
+    color: #50FA7B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FF5555;
+}
+
+main {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+input {
+    background-color: #333;
+    color: #FFF;
+}
+
+button {
+    background-color: #50FA7B;
+    color: #0D0D0D;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF5555;
+}
+
+.flashes {
+    list-style: none;
+    padding: 0;
+}
+
+.flashes li {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.flashes .success {
+    background-color: #50FA7B;
+    color: #0D0D0D;
+}
+
+.flashes .danger {
+    background-color: #FF5555;
+    color: #0D0D0D;
+}
+
+.flashes .warning {
+    background-color: #F1FA8C;
+    color: #0D0D0D;
+}
+
+.flashes .info {
+    background-color: #8BE9FD;
+    color: #0D0D0D;
+}

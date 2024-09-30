@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<h2>Iniciar sesión</h2>
+<form action="/login" method="post">
+    <input type="text" name="username" placeholder="Usuario" required>
+    <input type="password" name="password" placeholder="Contraseña" required>
+    <button type="submit">Iniciar sesión</button>
+</form>
+<a href="/register">¿No tienes cuenta? Regístrate aquí</a>
+{% endblock %}
